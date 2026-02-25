@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>من نحن</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>مشروعي</h2>
+    <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="login.html">تسجيل الخروج</a></li>
+    </ul>
+</nav>
+
+<div class="about">
+    <h1>عن المشروع</h1>
+    <p>
+        هذا مشروع مدرسي باستخدام HTML و CSS.
+        تم تصميمه بألوان أزرق وأسود مع قائمة تنقل احترافية.
+    </p>
+    <br>
+    <h3>الطالب: ameer aweiwi</h3>
+</div>
+
+</body>
+</html>
