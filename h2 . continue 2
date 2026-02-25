@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الصفحة الرئيسية</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>مشروعي</h2>
+    <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="login.html">تسجيل الخروج</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="left">
+        <div>
+            <h1>مرحباً بكم</h1>
+            <p>هذا المشروع من تصميم الطالب ameer aweiwi</p>
+            <button>اعرف المزيد</button>
+        </div>
+    </div>
+
+    <div class="right">
+        <div>
+            <h1>تصميم HTML & CSS</h1>
+            <p>تصميم صفحة مقسومة لقسمين باستخدام ألوان أزرق وأسود</p>
+            <button onclick="location.href='about.html'">انتقال</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
