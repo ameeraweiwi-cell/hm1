@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ameer Aweiwi</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            color: #4facfe;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #ff6b6b;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f1f1f1;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 10px;
+            transition: background 0.3s;
+        }
+
+        ul li:hover {
+            background: #4facfe;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>About Me</h1>
+        <p><strong>Name:</strong> Ameer Aweiwi</p>
+        <p><strong>Age:</strong> 15</p>
+        <p><strong>Grade:</strong> 10th Grade</p>
+
+        <h2>My Interests</h2>
+        <ul>
+            <li>🎤 I love singing</li>
+            <li>🎮 I enjoy playing video games</li>
+            <li>📚 My favorite subjects are Math and Physics</li>
+        </ul>
+    </div>
+
+</body>
+</html>
